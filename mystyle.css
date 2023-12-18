@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color:aqua;
+    text-align:center;
+}
+/*This is element Selector */
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+p{
+    color:red;
+}
+/*This is id Selector */
+#redellement{
+    color: blue;
+}
+/*This is class Selector */
+.redellement{
+    color:brown;
+}
+.bgblue{
+    color:beige;
+}
+/*This is Grouping SelectorSelector */
+footer,span{
+    background-color: pink;
+}
+body{
+    background-image:url(mobilepost1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
