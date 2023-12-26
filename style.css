@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+}
+
+
+h1{
+    color:green;
+}
+
+
+body{
+    
+}
+button{
+    color:brown;
+    background-color:white;
+} 
+#heading1{
+    color: blue;
+}
+#heading2{
+    color:brown;
+}
+#heading3{
+    color:magenta;
+}
+#Santi{
+    color:aqua
+}
+#box{
+    background-color: blue;
+    /* color: white; */
+}
+.heading{
+    color: red;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-decoration: blue solid underline;
+}
+a{
+    text-decoration: none;
+}
+#newtext{
+    font-weight: normal;
+}
+#One{
+    font-family: arial;
+    font-size: 25px;
+}
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1px;
+}
+.div{
+  height: 200px; 
+  background-color: pink; 
+  width: 200px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: brown;
+border-radius: 5px;
+padding: 25px;
+}
+#div1{
+
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+#logo{
+    color:#f08804;
+    font-size: 25 px;
+}
+a{
+    margin-right: 200px;
+}
+body{
+    background-image:url(images.jpg);
+    background-size:cover;
+}
+#Hello{
+    height: 100px;
+    width: 100px;
+    background-image: url(download.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
