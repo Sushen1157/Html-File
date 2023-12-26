@@ -1,38 +1,171 @@
-body{
-    background-color: lightblue;
+/* Reset some default styles */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    color:aqua;
-    text-align:center;
-}
-/*This is element Selector */
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
-p{
-    color:red;
-}
-/*This is id Selector */
-#redellement{
-    color: blue;
-}
-/*This is class Selector */
-.redellement{
-    color:brown;
-}
-.bgblue{
-    color:beige;
-}
-/*This is Grouping SelectorSelector */
-footer,span{
-    background-color: pink;
-}
-body{
-    background-image:url(mobilepost1.png);
+body {
+    background-color: lightblue;
+    background-image: url(mobilepost1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  
+}
+
+/* Header styles */
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+/* Paragraph styles */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+/* ID Selector */
+#redellement {
+    color: blue;
+}
+
+/* Class Selector */
+.redellement {
+    color: brown;
+}
+
+.bgblue {
+    color: beige;
+}
+
+/* Grouping Selector */
+footer, span {
+    background-color: pink;
+}
+
+/* Background image for body */
+body {
+    background-image: url(mobilepost1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+   
+}
+
+/* Table styles */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Dropdown styles */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Image Gallery styles */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-gallery img {
+    width: 200px;
+    margin: 10px;
+}
+
+/* Image Sprites */
+.sprite {
+    background: url('sprites.png') no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+/* CSS Website Layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Units and Positioning */
+.example {
+    width: 100%;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+
+/* Specificity and !important */
+.example p {
+    color: green !important;
+}
+/* Table styles */
+.container table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.container th, .container td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.container th {
+    background-color: yellow;
+}
+
+.container td {
+    background-color: #ffcccb;
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+    .container table {
+        width: 100%;
+    }
+    #Ip{
+        padding: auto;
+    }
 }
