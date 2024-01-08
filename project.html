@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Result Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body style="background: url(premier\ university.jpg.jpeg) no-repeat center center fixed; background-size: cover;">
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <!-- Navbar content -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Premier University
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+
+                        <button type="button" class="btn btn-outline-primary">Home</button>
+
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-secondary">Service</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-success">Contact</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-info">Notice</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-outline-dark">Admission</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <div class="row">
+        <div class="col-1">
+            <div class="form-box">
+                <div class="form">
+                    <form class="login-form">
+                        <center>
+                            <h1 class="main-heading">Login Form</h1>
+                        </center>
+                        <input type="text" placeholder="user name-id" />
+                        <input type="password" placeholder="password" />
+                        <button>LOGIN</button>
+                        <p class="message">Not Registered? <a href="#">Register</a></p>
+                    </form>
+                    <form class="register-form">
+                        <center>
+                            <h1 class="main-heading">Register Form</h1>
+                        </center>
+                        <input type="text" placeholder="user name-id " />
+                        <input type="text" placeholder="email-id" />
+                        <input type="password" placeholder="password" />
+                        <button>REGISTER</button>
+                        <p class="message">Already Registered?<a href="#">Login</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+            <p>
+                <marquee behavior="slide" direction="up">Explore the journey of academic success, where grades weave a
+                    tale of dedication and effort. Embrace the insights from each achievement, shaping a narrative of
+                    progress and inspiring future endeavors.<br> Congratulations on navigating the labyrinth of
+                    learning!</marquee>
+            </p>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+
+    <div class="full-page">
+        <!-- Rest of your content here -->
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $('.message a').click(function () {
+            $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+        });
+    </script>
+</body>
+
+</html>
